@@ -10,3 +10,9 @@ if x==y or y==z or z==x:
 else:
     print("Sum of three numbers : ")
     print(x+y+z)
+
+a,b=map(int,input("Enter two numbers : ").split())
+if 15<=(a+b)<=20:
+    print(20)
+else:
+    print(a+b)
