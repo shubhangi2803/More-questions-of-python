@@ -20,6 +20,7 @@ def daysInMonth(year,month):
 
 def nextDay(year, month, day):
     """Simple version: assume every month has 30 days"""
+    """To get the next day assuming correct days in all months""" 
     if day < daysInMonth(year,month):
         return year, month, day + 1
     else:
