@@ -7,6 +7,7 @@ def isLeapYear(year):
     return False
 
 def daysInMonth(year,month):
+    """To get the number of days in a month"""
     if month in (1,3,5,7,8,10,12):
         return 31
     elif month==2:
