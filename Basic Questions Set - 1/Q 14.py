@@ -1,6 +1,7 @@
 # 14. Write a Python program to calculate number of days between two dates.
 
 def isLeapYear(year):
+    """To find if a year is leap year or not"""
     if year%400==0:return True
     if year%100==0:return False
     if year%4==0:return True
