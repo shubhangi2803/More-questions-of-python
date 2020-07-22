@@ -12,12 +12,12 @@ else:
     print("Not divisible")
 
 print("To find maximum and minimum from a sequence of numbers")
-li=list(map(int,input("Enter sequence of numbers : ")))
+li=list(map(int,input("Enter sequence of numbers : ").split()))
 maxi=None
 maxpos=None
 mini=None
 minipos=None
-i=0
+i=1
 for num in li:
     if maxi is None or maxi<num:
         maxi=num
