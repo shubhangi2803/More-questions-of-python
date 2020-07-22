@@ -10,3 +10,24 @@ if x%y==0:
     print("{} is divisible by {}".format(x,y))
 else:
     print("Not divisible")
+
+print("To find maximum and minimum from a sequence of numbers")
+li=list(map(int,input("Enter sequence of numbers : ")))
+maxi=None
+maxpos=None
+mini=None
+minipos=None
+i=0
+for num in li:
+    if maxi is None or maxi<num:
+        maxi=num
+        maxipos=i
+    if mini is None or mini>num:
+        mini=num
+        minipos=i
+    i+=1
+print("Minimum value is : {} at {} position".format(mini,minipos))
+print("Maximum value is : {} at {} position".format(maxi,maxipos))
+
+        
+        
