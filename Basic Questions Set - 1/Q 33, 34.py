@@ -12,7 +12,6 @@ else:
     print("Sum of three numbers : ")
     print(x+y+z)
 
-# 34.
 a,b=map(int,input("Enter two numbers : ").split())
 if 15<=(a+b)<=20:
     print(20)
